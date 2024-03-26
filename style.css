@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.person {
+  height: 8rem;
+  width: 8rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aquamarine;
+  padding: 2rem 5rem;
+  width: 90%;
+  box-sizing: border-box;
+  margin: auto;
+  min-height: 100vh;
+}
+.about {
+  margin-top: 2rem;
+}
+.technologies {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.skills {
+  background-color: azure;
+  height: 1.7rem;
+  width: 5rem;
+  cursor: pointer;
+  padding: 0.2rem 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+.skills:hover {
+  background-color: rgb(133, 129, 129);
+  border-radius: 10px;
+  scale: 1.1;
+  transform: translateY(0.3rem);
+}
+.skills:active {
+  background-color: brown;
+}
+p::first-letter {
+  color: brown;
+  font-size: 3rem;
+}
+a {
+  margin-top: 10rem;
+  font-size: 2rem;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:visited {
+  color: brown;
+}
